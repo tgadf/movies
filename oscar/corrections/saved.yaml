@@ -207,11 +207,11 @@
     - Walt Disney Productions
   Best Supporting Actor:
     Nominees:
-    - - Juarez, Maximilian I of Mexico
+    - - Juarez
       - Brian Aherne
     - - Mr. Smith Goes to Washington
       - Harry Carey
-    - - Beau Geste, Sergeant
+    - - Beau Geste
       - Brian Donlevy
     - - Senator
       - Claude Rains
@@ -228,21 +228,31 @@
     - - Ninotchka
       - Sidney Franklin
     - - Of Mice and Men
-      - Lewis Milestone, Hal Roach Prod., United Artists
+      - Lewis Milestone
     - - Stagecoach
       - Walter Wanger
     - - The Wizard of Oz
       - Mervyn LeRoy
     - - Wuthering Heights
-      - Samuel Goldwyn, Samuel Goldwyn Prod.
+      - Samuel Goldwyn
 '1940':
+  Best Actor:
+    Nominees:
+    - - The Great Dictator
+      - Charlie Chaplin
+    - - The Grapes of Wrath
+      - Henry Fonda
+    - - Abe Lincoln in Illinois
+      - Raymond Massey
+    - - Rebecca
+      - Laurence Olivier
   Best Supporting Actor:
     Winner:
     - The Westerner
     - Walter Brennan
   Best Supporting Actress:
     Nominees:
-    - - Rebecca, Mrs. Danvers
+    - - Rebecca
       - Judith Anderson
     - - The Philadelphia Story
       - Ruth Hussey
@@ -266,7 +276,7 @@
       - Walter Huston
     - - Here Comes Mr. Jordan
       - Robert Montgomery
-    - - Citizen Kane, Charles Foster Kane
+    - - Citizen Kane
       - Orson Welles
     Winner:
     - Sergeant York
@@ -451,6 +461,16 @@
     - Hamlet
     - Laurence Olivier
 '1949':
+  Best Actor:
+    Nominees:
+    - - Champion
+      - Kirk Douglas
+    - - Twelve O'Clock High
+      - Gregory Peck
+    - - The Hasty Heart, Cpl.
+      - Richard Todd
+    - - Sands of Iwo Jima, Sgt.
+      - John Wayne
   Best Live Action Short Subject, One-Reel:
     Nominees:
     - - Roller Derby Girl
@@ -471,6 +491,10 @@
     Winner:
     - All the King's Men
     - Robert Rossen
+  Best Supporting Actor:
+    Winner:
+    - Twelve O'Clock High
+    - Dean Jagger
 '1950':
   Best Motion Picture:
     Nominees:
@@ -567,7 +591,7 @@
       - Frank Ross
     - - Roman Holiday
       - William Wyler
-    - - Shane,
+    - - Shane
       - George Stevens
     Winner:
     - From Here to Eternity
@@ -653,6 +677,26 @@
       - Elizabeth Taylor
     - - Peyton Place
       - Lana Turner
+  Best Screenplay Based on Material from Another Medium:
+    Nominees:
+    - - 12 Angry Men
+      - Reginald Rose
+    - - Heaven Knows
+      - John Lee Mahin, John Huston, the novel, Charles Shaw
+    - - Peyton Place
+      - John Michael Hayes, the novel, Grace Metalious
+    - - Sayonara
+      - Paul Osborn, the novel, James Michener
+  Best Supporting Actor:
+    Nominees:
+    - - A Farewell to Arms
+      - Vittorio De Sica
+    - - The Bridge on the River Kwai
+      - Sessue Hayakawa
+    - - Peyton Place
+      - Arthur Kennedy
+    - - Peyton Place
+      - Russ Tamblyn
   Best Supporting Actress:
     Nominees:
     - - The Bachelor Party
@@ -690,6 +734,29 @@
     Winner:
     - Ben-Hur
     - Hugh Griffith
+  Best Supporting Actress:
+    Winner:
+    - The Diary of Anne Frank
+    - Shelley Winters
+'1960':
+  Best Supporting Actor:
+    Nominees:
+    - - Murder, Inc.
+      - Peter Falk
+    - - The Apartment
+      - Jack Kruschen
+    - - Exodus
+      - Sal Mineo
+    - - The Alamo
+      - Chill Wills
+    Winner:
+    - Spartacus
+    - Peter Ustinov
+'1961':
+  Best Director:
+    Winner:
+    - West Side Story
+    - Robert Wise
 '1962':
   Best Picture:
     Nominees:
@@ -714,7 +781,652 @@
       - Vladimir Nabokov
     - - The Miracle Worker
       - William Gibson
+'1964':
+  Best Actor:
+    Nominees:
+    - - Becket
+      - Richard Burton
+    - - Becket
+      - Peter O'Toole
+    - - Zorba the Greek
+      - Anthony Quinn
+    - - 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb'
+      - Peter Sellers
+  Best Actress:
+    Nominees:
+    - - The Pumpkin Eater
+      - Anne Bancroft
+    - - Marriage Italian Style
+      - Sophia Loren
+    - - The Unsinkable Molly Brown
+      - Debbie Reynolds
+    - - Séance on a Wet Afternoon
+      - Kim Stanley
+    Winner:
+    - Mary Poppins
+    - Julie Andrews
+  Best Supporting Actor:
+    Nominees:
+    - - Becket
+      - John Gielgud
+    - - My Fair Lady
+      - Stanley Holloway
+    - - Seven Days in May
+      - Edmond O'Brien
+    - - The Best Man
+      - Lee Tracy
+'1965':
+  Best Actor:
+    Nominees:
+    - - The Spy Who Came in from the Cold
+      - Richard Burton
+    - - Othello
+      - Laurence Olivier
+    - - The Pawnbroker
+      - Rod Steiger
+    - - Ship of Fools
+      - Oskar Werner
+  Best Actress:
+    Nominees:
+    - - The Sound of Music
+      - Julie Andrews
+    - - The Collector
+      - Samantha Eggar
+    - - A Patch of Blue
+      - Elizabeth Hartman
+    - - Ship of Fools
+      - Simone Signoret
+  Best Supporting Actor:
+    Nominees:
+    - - The Flight of the Phoenix
+      - Ian Bannen
+    - - Doctor Zhivago
+      - Tom Courtenay
+    - - Ship of Fools
+      - Michael Dunn
+    - - Othello
+      - Frank Finlay
+  Best Supporting Actress:
+    Nominees:
+    - - Inside Daisy Clover
+      - Ruth Gordon
+    - - Othello
+      - Joyce Redman
+    - - Othello
+      - Maggie Smith
+    - - The Sound of Music
+      - Peggy Wood
+'1966':
+  Best Actor:
+    Winner:
+    - A Man for All Seasons
+    - Paul Scofield
+  Best Supporting Actor:
+    Nominees:
+    - - The Sand Pebbles
+      - Mako
+    - - Georgy Girl
+      - James Mason
+    - - Who's Afraid of Virginia Woolf?
+      - George Segal
+    - - A Man for All Seasons
+      - Robert Shaw
+'1967':
+  Best Actor:
+    Nominees:
+    - - Bonnie and Clyde
+      - Warren Beatty
+    - - The Graduate
+      - Dustin Hoffman
+    - - Cool Hand Luke
+      - Paul Newman
+    - - Guess Who's Coming to Dinner
+      - Spencer Tracy
+  Best Actress:
+    Nominees:
+    - - The Graduate
+      - Anne Bancroft
+    - - Bonnie and Clyde
+      - Faye Dunaway
+    - - The Whisperers
+      - Edith Evans
+    - - Wait Until Dark
+      - Audrey Hepburn
+  Best Supporting Actor:
+    Nominees:
+    - - The Dirty Dozen
+      - John Cassavetes
+    - - Bonnie and Clyde
+      - Gene Hackman
+    - - Guess Who's Coming to Dinner
+      - Cecil Kellaway
+    - - Bonnie and Clyde
+      - Michael J. Pollard
+  Best Supporting Actress:
+    Winner:
+    - Bonnie and Clyde
+    - Estelle Parsons
+'1968':
+  Best Actor:
+    Nominees:
+    - - The Heart Is a Lonely Hunter
+      - Alan Arkin
+    - - The Fixer
+      - Alan Bates
+    - - Oliver!, Fagin
+      - Ron Moody
+    - - The Lion In Winter
+      - Peter O'Toole
+  Best Actress:
+    Nominees:
+    - - Funny Girl
+      - Barbra Streisand
+    - - The Subject Was Roses
+      - Patricia Neal
+    - - Isadora, Isadora Duncan
+      - Vanessa Redgrave
+    - - Rachel, Rachel
+      - Joanne Woodward
+    Winner:
+    - The Lion In Winter
+    - Katharine Hepburn
+  Best Supporting Actor:
+    Nominees:
+    - - Faces
+      - Seymour Cassel
+    - - Star!
+      - Daniel Massey
+    - - Oliver!
+      - Jack Wild
+    - - The Producers
+      - Gene Wilder
+  Best Supporting Actress:
+    Nominees:
+    - - Faces
+      - Lynn Carlin
+    - - The Heart Is a Lonely Hunter
+      - Sondra Locke
+    - - Funny Girl
+      - Kay Medford
+    - - Rachel, Rachel
+      - Estelle Parsons
+'1969':
+  Best Actor:
+    Nominees:
+    - - Anne of the Thousand Days
+      - Richard Burton
+    - - Midnight Cowboy
+      - Dustin Hoffman
+    - - Goodbye, Mr. Chips
+      - Peter O'Toole
+    - - Midnight Cowboy
+      - Jon Voight
+    Winner:
+    - True Grit
+    - John Wayne
+  Best Actress:
+    Nominees:
+    - - Anne of the Thousand Days
+      - Geneviève Bujold
+    - - They Shoot Horses, Don't They?
+      - Jane Fonda
+    - - The Sterile Cuckoo
+      - Liza Minnelli
+    - - The Happy Ending
+      - Jean Simmons
+    Winner:
+    - The Prime of Miss Jean Brodie
+    - Maggie Smith
+  Best Cinematography:
+    Nominees:
+    - - Anne of the Thousand Days
+      - Arthur Ibbetson
+    - - Bob & Carol & Ted & Alice
+      - Charles Lang
+    - - Hello, Dolly!
+      - Harry Stradling
+    - - Marooned
+      - Daniel L. Fapp
+'1970':
+  Best Actor:
+    Winner:
+    - Patton
+    - George C. Scott
+  Best Supporting Actress:
+    Nominees:
+    - - Five Easy Pieces
+      - Karen Black
+    - - The Landlord
+      - Lee Grant
+    - - M*A*S*H
+      - Sally Kellerman
+    - - Airport
+      - Maureen Stapleton
+'1971':
+  Best Actor:
+    Nominees:
+    - - Sunday Bloody Sunday
+      - Peter Finch
+    - - Kotch
+      - Walter Matthau
+    - - The Hospital
+      - George C. Scott
+    - - Fiddler on the Roof
+      - Chaim Topol
+    Winner:
+    - The French Connection
+    - Gene Hackman
+  Best Actress:
+    Nominees:
+    - - McCabe & Mrs. Miller
+      - Julie Christie
+    - - Sunday Bloody Sunday
+      - Glenda Jackson
+    - - Mary, Queen of Scots
+      - Vanessa Redgrave
+    - - Nicholas and Alexandra
+      - Janet Suzman
+'1972':
+  Best Actor:
+    Winner:
+    - The Godfather
+    - Marlon Brando
+  Best Actress:
+    Nominees:
+    - - Lady Sings the Blues
+      - Diana Ross
+    - - Travels with My Aunt
+      - Maggie Smith
+    - - Sounder
+      - Cicely Tyson
+    - - The Emigrants
+      - Liv Ullmann
+    Winner:
+    - Cabaret
+    - Liza Minnelli
+  Best Supporting Actor:
+    Nominees:
+    - - The Heartbreak Kid
+      - Eddie Albert
+    - - The Godfather
+      - James Caan
+    - - The Godfather
+      - Robert Duvall
+    - - The Godfather
+      - Al Pacino
+    Winner:
+    - Cabaret
+    - Joel Grey
+'1973':
+  Best Actor:
+    Nominees:
+    - - Last Tango in Paris
+      - Marlon Brando
+    - - The Last Detail
+      - Jack Nicholson
+    - - Serpico
+      - Al Pacino
+    - - The Sting
+      - Robert Redford
+  Best Supporting Actor:
+    Nominees:
+    - - Bang the Drum Slowly
+      - Vincent Gardenia
+    - - Save the Tiger
+      - Jack Gilford
+    - - The Exorcist
+      - Jason Miller
+    - - The Last Detail
+      - Randy Quaid
+  Best Supporting Actress:
+    Nominees:
+    - - The Exorcist
+      - Linda Blair
+    - - American Graffiti
+      - Candy Clark
+    - - Paper Moon
+      - Madeline Kahn
+    - - Summer Wishes, Winter Dreams
+      - Sylvia Sidney
+'1974':
+  Best Actor:
+    Nominees:
+    - - Murder on the Orient Express
+      - Albert Finney
+    - - Lenny
+      - Dustin Hoffman
+    - - Chinatown
+      - Jack Nicholson
+    - - The Godfather Part II
+      - Al Pacino
+  Best Actress:
+    Nominees:
+    - - Claudine
+      - Diahann Carroll
+    - - Chinatown
+      - Faye Dunaway
+    - - Lenny
+      - Valerie Perrine
+    - - A Woman Under the Influence
+      - Gena Rowlands
+    Winner:
+    - Alice Doesn't Live Here Anymore
+    - Ellen Burstyn
+  Best Supporting Actor:
+    Nominees:
+    - - The Towering Inferno
+      - Fred Astaire
+    - - Thunderbolt and Lightfoot
+      - Jeff Bridges
+    - - The Godfather Part II
+      - Michael V. Gazzo
+    - - The Godfather Part II
+      - Lee Strasberg
+    Winner:
+    - The Godfather Part II
+    - Robert De Niro
+  Best Supporting Actress:
+    Nominees:
+    - - Day for Night
+      - Valentina Cortese
+    - - Blazing Saddles
+      - Madeline Kahn
+    - - Alice Doesn't Live Here Anymore
+      - Diane Ladd
+    - - The Godfather Part II
+      - Talia Shire
+'1975':
+  Best Actor:
+    Nominees:
+    - - The Sunshine Boys
+      - Walter Matthau
+    - - Dog Day Afternoon
+      - Al Pacino
+    - - The Man in the Glass Booth
+      - Maximilian Schell
+    - - Give 'em Hell, Harry!
+      - James Whitmore
+    Winner:
+    - One Flew Over the Cuckoo's Nest
+    - Jack Nicholson
+  Best Actress:
+    Nominees:
+    - - The Story of Adele H.
+      - Isabelle Adjani
+    - - Tommy
+      - Ann-Margret
+    - - Hedda
+      - Glenda Jackson
+    - - Hester Street
+      - Carol Kane
+    Winner:
+    - One Flew Over the Cuckoo's Nest
+    - Louise Fletcher
+'1976':
+  Best Actor:
+    Nominees:
+    - - Taxi Driver
+      - Robert De Niro
+    - - Seven Beauties
+      - Giancarlo Giannini
+    - - Network
+      - William Holden
+    - - Rocky
+      - Sylvester Stallone
+    Winner:
+    - Network
+    - Peter Finch
+  Best Actress:
+    Nominees:
+    - - Cousin Cousine
+      - Marie-Christine Barrault
+    - - Rocky
+      - Talia Shire
+    - - Carrie
+      - Sissy Spacek
+    - - Face to Face
+      - Liv Ullmann
+  Best Supporting Actor:
+    Nominees:
+    - - Network
+      - Ned Beatty
+    - - Rocky
+      - Burgess Meredith
+    - - Marathon Man
+      - Laurence Olivier
+    - - Rocky
+      - Burt Young
+    Winner:
+    - All the President's Men
+    - Jason Robards
+  Best Supporting Actress:
+    Nominees:
+    - - All the President's Men
+      - Jane Alexander
+    - - Taxi Driver
+      - Jodie Foster
+    - - Voyage of the Damned
+      - Lee Grant
+    - - Carrie
+      - Piper Laurie
+'1977':
+  Best Supporting Actor:
+    Nominees:
+    - - The Turning Point
+      - Mikhail Baryshnikov
+    - - Equus
+      - Peter Firth
+    - - Star Wars
+      - Alec Guinness
+    - - Julia
+      - Maximilian Schell
+    Winner:
+    - Julia
+    - Jason Robards
+'1978':
+  Best Actor:
+    Nominees:
+    - - Heaven Can Wait
+      - Warren Beatty
+    - - The Buddy Holly Story
+      - Gary Busey
+    - - The Deer Hunter
+      - Robert De Niro
+    - - The Boys from Brazil
+      - Laurence Olivier
+  Best Director:
+    Nominees:
+    - - Coming Home
+      - Hal Ashby
+    - - Heaven Can Wait
+      - Warren Beatty
+    - - Interiors
+      - Woody Allen
+    - - Midnight Express
+      - Alan Parker
+'1979':
+  Best Supporting Actor:
+    Nominees:
+    - - Apocalypse Now
+      - Robert Duvall
+    - - The Rose
+      - Frederic Forrest
+    - - Kramer vs. Kramer
+      - Justin Henry
+    - - The Black Stallion
+      - Mickey Rooney
+'1980':
+  Best Actor:
+    Nominees:
+    - - The Great Santini
+      - Robert Duvall
+    - - The Elephant Man
+      - John Hurt
+    - - Tribute
+      - Jack Lemmon
+    - - The Stunt Man
+      - Peter O'Toole
+    Winner:
+    - Raging Bull
+    - Robert De Niro
+  Best Actress:
+    Winner:
+    - Coal Miner's Daughter
+    - Sissy Spacek
+  Best Cinematography:
+    Winner:
+    - Tess
+    - Geoffrey Unsworth, Ghislain Cloquet
+  Best Supporting Actor:
+    Nominees:
+    - - Ordinary People
+      - Judd Hirsch
+    - - The Great Santini
+      - Michael O'Keefe
+    - - Raging Bull
+      - Joe Pesci
+    - - Melvin and Howard
+      - Jason Robards
+  Best Supporting Actress:
+    Nominees:
+    - - Private Benjamin
+      - Eileen Brennan
+    - - Resurrection
+      - Eva Le Gallienne
+    - - Raging Bull
+      - Cathy Moriarty
+    - - Inside Moves
+      - Diana Scarwid
+    Winner:
+    - Melvin and Howard
+    - Mary Steenburgen
+'1981':
+  Best Actor:
+    Nominees:
+    - - Reds
+      - Warren Beatty
+    - - Atlantic City
+      - Burt Lancaster
+    - - Arthur
+      - Dudley Moore
+    - - Absence of Malice
+      - Paul Newman
+  Best Actress:
+    Nominees:
+    - - Reds
+      - Diane Keaton
+    - - Only When I Laugh
+      - Marsha Mason
+    - - Atlantic City
+      - Susan Sarandon
+    - - The French Lieutenant's Woman
+      - Meryl Streep
+  Best Supporting Actor:
+    Nominees:
+    - - Only When I Laugh
+      - James Coco
+    - - Chariots of Fire
+      - Ian Holm
+    - - Reds
+      - Jack Nicholson
+    - - Ragtime
+      - Howard E. Rollins Jr.
+  Best Supporting Actress:
+    Nominees:
+    - - Absence of Malice
+      - Melinda Dillon
+    - - On Golden Pond
+      - Jane Fonda
+    - - Only When I Laugh
+      - Joan Hackett
+    - - Ragtime
+      - Elizabeth McGovern
+    Winner:
+    - Reds
+    - Maureen Stapleton
+'1982':
+  Best Actor:
+    Nominees:
+    - - Tootsie
+      - Dustin Hoffman
+    - - Missing
+      - Jack Lemmon
+    - - The Verdict
+      - Paul Newman
+    - - My Favorite Year
+      - Peter O'Toole
+    Winner:
+    - Gandhi
+    - Ben Kingsley
+  Best Actress:
+    Nominees:
+    - - Victor/Victoria
+      - Julie Andrews
+    - - Frances
+      - Jessica Lange
+    - - Missing
+      - Sissy Spacek
+    - - An Officer and a Gentleman
+      - Debra Winger
+  Best Supporting Actor:
+    Winner:
+    - An Officer and a Gentleman
+    - Louis Gossett Jr.
+  Best Supporting Actress:
+    Nominees:
+    - - The World According to Garp
+      - Glenn Close
+    - - Tootsie
+      - Teri Garr
+    - - Frances
+      - Kim Stanley
+    - - Victor/Victoria
+      - Lesley Ann Warren
+'1983':
+  Best Actress:
+    Nominees:
+    - - Testament
+      - Jane Alexander
+    - - Silkwood
+      - Meryl Streep
+    - - Educating Rita
+      - Julie Walters
+    - - Terms of Endearment
+      - Debra Winger
+  Best Supporting Actor:
+    Nominees:
+    - - To Be or Not to Be
+      - Charles Durning
+    - - Terms of Endearment
+      - John Lithgow
+    - - The Right Stuff
+      - Sam Shepard
+    - - Cross Creek
+      - Rip Torn
+  Best Supporting Actress:
+    Nominees:
+    - - Silkwood
+      - Cher
+    - - The Big Chill
+      - Glenn Close
+    - - Yentl
+      - Amy Irving
+    - - Cross Creek
+      - Alfre Woodard
 '1984':
+  Best Actor:
+    Nominees:
+    - - Starman
+      - Jeff Bridges
+    - - Under the Volcano
+      - Albert Finney
+    - - Amadeus
+      - Tom Hulce
+    - - The Killing Fields
+      - Sam Waterston
+    Winner:
+    - Amadeus
+    - F. Murray Abraham
   Best Screenplay Based on Material from Another Medium:
     Nominees:
     - - 'Greystoke: The Legend of Tarzan, Lord of the Apes'
@@ -728,7 +1440,418 @@
     Winner:
     - Amadeus
     - Peter Shaffer
+  Best Supporting Actor:
+    Nominees:
+    - - A Soldier's Story
+      - Adolph Caesar
+    - - Places in the Heart
+      - John Malkovich
+    - - The Karate Kid
+      - Pat Morita
+    - - 'Greystoke: The Legend of Tarzan, Lord of the Apes'
+      - Ralph Richardson
+    Winner:
+    - The Killing Fields
+    - Haing S. Ngor
+'1986':
+  Best Actress:
+    Nominees:
+    - - The Morning After
+      - Jane Fonda
+    - - Crimes of the Heart
+      - Sissy Spacek
+    - - Peggy Sue Got Married
+      - Kathleen Turner
+    - - Aliens
+      - Sigourney Weaver
+'1987':
+  Best Actor:
+    Nominees:
+    - - Broadcast News
+      - William Hurt
+    - - Dark Eyes
+      - Marcello Mastroianni
+    - - Ironweed
+      - Jack Nicholson
+    - - Good Morning, Vietnam
+      - Robin Williams
+    Winner:
+    - Wall Street
+    - Michael Douglas
+  Best Actress:
+    Nominees:
+    - - Fatal Attraction
+      - Glenn Close
+    - - Broadcast News
+      - Holly Hunter
+    - - Anna
+      - Sally Kirkland
+    - - Ironweed
+      - Meryl Streep
+  Best Supporting Actor:
+    Nominees:
+    - - Broadcast News
+      - Albert Brooks
+    - - Street Smart
+      - Morgan Freeman
+    - - Moonstruck
+      - Vincent Gardenia
+    - - Cry Freedom
+      - Denzel Washington
+'1988':
+  Best Actor:
+    Nominees:
+    - - Mississippi Burning
+      - Gene Hackman
+    - - Big
+      - Tom Hanks
+    - - Stand and Deliver
+      - Edward James Olmos
+    - - Pelle the Conqueror
+      - Max von Sydow
+  Best Actress:
+    Nominees:
+    - - Dangerous Liaisons
+      - Glenn Close
+    - - Working Girl
+      - Melanie Griffith
+    - - A Cry in the Dark
+      - Meryl Streep
+    - - Gorillas in the Mist
+      - Sigourney Weaver
+    Winner:
+    - The Accused
+    - Jodie Foster
+'1989':
+  Best Actor:
+    Nominees:
+    - - Henry V
+      - Kenneth Branagh
+    - - Born on the Fourth of July
+      - Tom Cruise
+    - - Driving Miss Daisy
+      - Morgan Freeman
+    - - Dead Poets Society
+      - Robin Williams
+    Winner:
+    - My Left Foot
+    - Daniel Day-Lewis
+  Best Actress:
+    Nominees:
+    - - Camille Claudel
+      - Isabelle Adjani
+    - - Shirley Valentine
+      - Pauline Collins
+    - - Music Box
+      - Jessica Lange
+    - - The Fabulous Baker Boys
+      - Michelle Pfeiffer
+  Best Supporting Actress:
+    Winner:
+    - My Left Foot
+    - Brenda Fricker
+'1990':
+  Best Actor:
+    Nominees:
+    - - Dances with Wolves
+      - Kevin Costner
+    - - Awakenings
+      - Robert De Niro
+    - - Cyrano de Bergerac
+      - Gérard Depardieu
+    - - The Field
+      - Richard Harris
+    Winner:
+    - Reversal of Fortune
+    - Jeremy Irons
+  Best Actress:
+    Winner:
+    - Misery
+    - Kathy Bates
+  Best Supporting Actor:
+    Nominees:
+    - - Longtime Companion
+      - Bruce Davison
+    - - The Godfather Part III
+      - Andy García
+    - - Dances with Wolves
+      - Graham Greene
+    - - Dick Tracy
+      - Al Pacino
+    Winner:
+    - Goodfellas
+    - Joe Pesci
+  Best Supporting Actress:
+    Nominees:
+    - - The Grifters
+      - Annette Bening
+    - - Goodfellas
+      - Lorraine Bracco
+    - - Wild at Heart
+      - Diane Ladd
+    - - Dances with Wolves
+      - Mary McDonnell
+'1991':
+  Best Actor:
+    Nominees:
+    - - Bugsy
+      - Warren Beatty
+    - - Cape Fear
+      - Robert De Niro
+    - - The Prince of Tides
+      - Nick Nolte
+    - - The Fisher King
+      - Robin Williams
+    Winner:
+    - The Silence of the Lambs
+    - Anthony Hopkins
+  Best Actress:
+    Winner:
+    - The Silence of the Lambs
+    - Jodie Foster
+  Best Supporting Actor:
+    Nominees:
+    - - JFK
+      - Tommy Lee Jones
+    - - Bugsy
+      - Harvey Keitel
+    - - Bugsy
+      - Ben Kingsley
+    - - Barton Fink
+      - Michael Lerner
+'1992':
+  Best Actor:
+    Nominees:
+    - - Chaplin
+      - Robert Downey Jr.
+    - - Unforgiven
+      - Clint Eastwood
+    - - The Crying Game
+      - Stephen Rea
+    - - Malcolm X
+      - Denzel Washington
+  Best Actress:
+    Nominees:
+    - - Indochine
+      - Catherine Deneuve
+    - - Passion Fish
+      - Mary McDonnell
+    - - Love Field
+      - Michelle Pfeiffer
+    - - Lorenzo's Oil
+      - Susan Sarandon
+'1993':
+  Best Actor:
+    Nominees:
+    - - In the Name of the Father
+      - Daniel Day-Lewis
+    - - What's Love Got to Do with It
+      - Laurence Fishburne
+    - - The Remains of the Day
+      - Anthony Hopkins
+    - - Schindler's List
+      - Liam Neeson
+  Best Actress:
+    Nominees:
+    - - What's Love Got to Do with It
+      - Angela Bassett
+    - - Six Degrees of Separation
+      - Stockard Channing
+    - - The Remains of the Day
+      - Emma Thompson
+    - - Shadowlands
+      - Debra Winger
+  Best Supporting Actor:
+    Nominees:
+    - - What's Eating Gilbert Grape
+      - Leonardo DiCaprio
+    - - Schindler's List
+      - Ralph Fiennes
+    - - In the Line of Fire
+      - John Malkovich
+    - - In the Name of the Father
+      - Pete Postlethwaite
+  Best Supporting Actress:
+    Nominees:
+    - - The Firm
+      - Holly Hunter
+    - - Fearless
+      - Rosie Perez
+    - - The Age of Innocence
+      - Winona Ryder
+    - - In the Name of the Father
+      - Emma Thompson
+'1994':
+  Best Actor:
+    Nominees:
+    - - The Shawshank Redemption
+      - Morgan Freeman
+    - - The Madness of King George
+      - Nigel Hawthorne
+    - - Nobody's Fool
+      - Paul Newman
+    - - Pulp Fiction
+      - John Travolta
+    Winner:
+    - Forrest Gump
+    - Tom Hanks
+  Best Actress:
+    Nominees:
+    - - Nell
+      - Jodie Foster
+    - - Tom & Viv
+      - Miranda Richardson
+    - - Little Women
+      - Winona Ryder
+    - - The Client
+      - Susan Sarandon
+  Best Supporting Actor:
+    Nominees:
+    - - Pulp Fiction
+      - Samuel L. Jackson
+    - - Bullets over Broadway
+      - Chazz Palminteri
+    - - Quiz Show
+      - Paul Scofield
+    - - Forrest Gump
+      - Gary Sinise
+    Winner:
+    - Ed Wood
+    - Martin Landau
+  Best Supporting Actress:
+    Nominees:
+    - - Tom & Viv
+      - Rosemary Harris
+    - - The Madness of King George
+      - Helen Mirren
+    - - Pulp Fiction
+      - Uma Thurman
+    - - Bullets over Broadway
+      - Jennifer Tilly
+'1995':
+  Best Actor:
+    Nominees:
+    - - Mr. Holland's Opus
+      - Richard Dreyfuss
+    - - Nixon
+      - Anthony Hopkins
+    - - Dead Man Walking
+      - Sean Penn
+    - - 'Il Postino: The Postman'
+      - Massimo Troisi
+  Best Actress:
+    Nominees:
+    - - Leaving Las Vegas
+      - Elisabeth Shue
+    - - Casino
+      - Sharon Stone
+    - - The Bridges of Madison County
+      - Meryl Streep
+    - - Sense and Sensibility
+      - Emma Thompson
+    Winner:
+    - Dead Man Walking
+    - Susan Sarandon
+  Best Supporting Actor:
+    Nominees:
+    - - Babe
+      - James Cromwell
+    - - Apollo 13
+      - Ed Harris
+    - - 12 Monkeys
+      - Brad Pitt
+    - - Rob Roy
+      - Tim Roth
+  Best Supporting Actress:
+    Nominees:
+    - - Nixon
+      - Joan Allen
+    - - Apollo 13
+      - Kathleen Quinlan
+    - - Georgia
+      - Mare Winningham
+    - - Sense and Sensibility
+      - Kate Winslet
+'1996':
+  Best Actor:
+    Nominees:
+    - - Jerry Maguire
+      - Tom Cruise
+    - - The English Patient
+      - Ralph Fiennes
+    - - The People vs. Larry Flynt
+      - Woody Harrelson
+    - - Sling Blade
+      - Billy Bob Thornton
+    Winner:
+    - Shine
+    - Geoffrey Rush
+  Best Actress:
+    Winner:
+    - Fargo
+    - Frances McDormand
+  Best Supporting Actor:
+    Nominees:
+    - - Fargo
+      - William H. Macy
+    - - Shine
+      - Armin Mueller-Stahl
+    - - Primal Fear
+      - Edward Norton
+    - - Ghosts of Mississippi
+      - James Woods
+  Best Supporting Actress:
+    Nominees:
+    - - The Crucible
+      - Joan Allen
+    - - The Mirror Has Two Faces
+      - Lauren Bacall
+    - - The Portrait of a Lady
+      - Barbara Hershey
+    - - Secrets & Lies
+      - Marianne Jean-Baptiste
+'1997':
+  Best Actress:
+    Nominees:
+    - - The Wings of the Dove
+      - Helena Bonham Carter
+    - - Afterglow
+      - Julie Christie
+    - - Mrs Brown
+      - Judi Dench
+    - - Titanic
+      - Kate Winslet
+  Best Supporting Actor:
+    Nominees:
+    - - Jackie Brown
+      - Robert Forster
+    - - Amistad
+      - Anthony Hopkins
+    - - As Good as It Gets
+      - Greg Kinnear
+    - - Boogie Nights
+      - Burt Reynolds
 '1998':
+  Best Actor:
+    Nominees:
+    - - Saving Private Ryan
+      - Tom Hanks
+    - - Gods and Monsters
+      - Ian McKellen
+    - - Affliction
+      - Nick Nolte
+    - - American History X
+      - Edward Norton
+  Best Actress:
+    Nominees:
+    - - Elizabeth
+      - Cate Blanchett
+    - - Central Station
+      - Fernanda Montenegro
+    - - One True Thing
+      - Meryl Streep
+    - - Hilary and Jackie
+      - Emily Watson
   Best Supporting Actor:
     Nominees:
     - - A Civil Action
@@ -749,6 +1872,9 @@
       - Rachel Griffiths
     - - Gods and Monsters
       - Lynn Redgrave
+    Winner:
+    - Shakespeare in Love
+    - Judi Dench
 '1999':
   Best Actor:
     Nominees:
@@ -760,7 +1886,239 @@
       - Sean Penn
     - - The Hurricane
       - Denzel Washington
+  Best Actress:
+    Nominees:
+    - - American Beauty
+      - Annette Bening
+    - - Tumbleweeds
+      - Janet McTeer
+    - - The End of the Affair
+      - Julianne Moore
+    - - Music of the Heart
+      - Meryl Streep
+    Winner:
+    - Boys Don't Cry
+    - Hilary Swank
+  Best Supporting Actress:
+    Nominees:
+    - - The Sixth Sense
+      - Toni Collette
+    - - Being John Malkovich
+      - Catherine Keener
+    - - Sweet and Lowdown
+      - Samantha Morton
+    - - Boys Don't Cry
+      - Chloë Sevigny
+'2000':
+  Best Actor:
+    Nominees:
+    - - Before Night Falls
+      - Javier Bardem
+    - - Cast Away
+      - Tom Hanks
+    - - Pollock
+      - Ed Harris
+    - - Quills
+      - Geoffrey Rush
+  Best Actress:
+    Winner:
+    - Erin Brockovich
+    - Julia Roberts
+  Best Supporting Actor:
+    Nominees:
+    - - The Contender
+      - Jeff Bridges
+    - - Shadow of the Vampire
+      - Willem Dafoe
+    - - Erin Brockovich
+      - Albert Finney
+    - - Gladiator, Commodus
+      - Joaquin Phoenix
+  Best Supporting Actress:
+    Nominees:
+    - - Chocolat
+      - Judi Dench
+    - - Almost Famous
+      - Kate Hudson
+    - - Almost Famous
+      - Frances McDormand
+    - - Billy Elliot
+      - Julie Walters
+    Winner:
+    - Pollock
+    - Marcia Gay Harden
+'2001':
+  Best Actor:
+    Nominees:
+    - - A Beautiful Mind
+      - Russell Crowe
+    - - I Am Sam
+      - Sean Penn
+    - - Ali
+      - Will Smith
+    - - In the Bedroom
+      - Tom Wilkinson
+    Winner:
+    - Training Day
+    - Denzel Washington
+  Best Actress:
+    Nominees:
+    - - Iris
+      - Judi Dench
+    - - Moulin Rouge!
+    - - In the Bedroom
+      - Sissy Spacek
+    - - Bridget Jones's Diary
+      - Renée Zellweger
+  Best Supporting Actor:
+    Nominees:
+    - - Training Day
+      - Ethan Hawke
+    - - Sexy Beast
+      - Ben Kingsley
+    - - 'The Lord of the Rings: The Fellowship of the Ring'
+      - Ian McKellen
+    - - Ali
+      - Jon Voight
+    Winner:
+    - Iris
+    - Jim Broadbent
+  Best Supporting Actress:
+    Nominees:
+    - - Gosford Park
+      - Helen Mirren
+    - - Gosford Park
+      - Maggie Smith
+    - - In the Bedroom
+      - Marisa Tomei
+    - - Iris
+      - Kate Winslet
+    Winner:
+    - A Beautiful Mind
+    - Jennifer Connelly
+'2002':
+  Best Actor:
+    Nominees:
+    - - Adaptation
+      - Nicolas Cage
+    - - The Quiet American
+      - Michael Caine
+    - - Gangs of New York
+      - Daniel Day-Lewis
+    - - About Schmidt
+      - Jack Nicholson
+    Winner:
+    - The Pianist
+    - Adrien Brody
+  Best Actress:
+    Nominees:
+    - - Frida
+      - Salma Hayek
+    - - Unfaithful
+      - Diane Lane
+    - - Far from Heaven
+      - Julianne Moore
+    - - Chicago
+      - Renée Zellweger
+    Winner:
+    - The Hours
+    - Nicole Kidman
+  Best Supporting Actor:
+    Winner:
+    - Adaptation
+    - Chris Cooper
+  Best Supporting Actress:
+    Nominees:
+    - - About Schmidt
+      - Kathy Bates
+    - - Chicago
+      - Queen Latifah
+    - - The Hours
+      - Julianne Moore
+    - - Adaptation
+      - Meryl Streep
+    Winner:
+    - Chicago
+    - Catherine Zeta-Jones
+'2003':
+  Best Actor:
+    Nominees:
+    - - 'Pirates of the Caribbean: The Curse of the Black Pearl'
+      - Johnny Depp
+    - - House of Sand and Fog
+      - Ben Kingsley
+    - - Cold Mountain
+      - Jude Law
+    - - Lost in Translation
+      - Bill Murray
+  Best Actress:
+    Winner:
+    - Monster
+    - Charlize Theron
+'2004':
+  Best Actor:
+    Nominees:
+    - - Hotel Rwanda
+      - Don Cheadle
+    - - Finding Neverland
+      - Johnny Depp
+    - - The Aviator
+      - Leonardo DiCaprio
+    - - Million Dollar Baby
+      - Clint Eastwood
+    Winner:
+    - Ray
+    - Jamie Foxx
+  Best Supporting Actor:
+    Nominees:
+    - - The Aviator
+      - Alan Alda
+    - - Sideways
+      - Thomas Haden Church
+    - - Collateral
+      - Jamie Foxx
+    - - Closer
+      - Clive Owen
+  Best Supporting Actress:
+    Nominees:
+    - - Kinsey
+      - Laura Linney
+    - - Sideways
+      - Virginia Madsen
+    - - Hotel Rwanda
+      - Sophie Okonedo
+    - - Closer
+      - Natalie Portman
+    Winner:
+    - The Aviator
+    - Cate Blanchett
 '2005':
+  Best Actor:
+    Nominees:
+    - - Hustle & Flow
+      - Terrence Howard
+    - - Brokeback Mountain
+      - Heath Ledger
+    - - Walk the Line
+      - Joaquin Phoenix
+    - - Good Night, and Good Luck
+      - David Strathairn
+    Winner:
+    - Capote
+    - Philip Seymour Hoffman
+  Best Actress:
+    Nominees:
+    - - Mrs Henderson Presents
+      - Judi Dench
+    - - Transamerica
+      - Felicity Huffman
+    - - Pride & Prejudice
+      - Keira Knightley
+    - - North Country
+      - Charlize Theron
+    Winner:
+    - Walk the Line
+    - Reese Witherspoon
   Best Foreign Language Film:
     Nominees:
     - - Don't Tell
@@ -774,7 +2132,263 @@
     Winner:
     - Tsotsi
     - South Africa, Gavin Hood
+  Best Supporting Actor:
+    Nominees:
+    - - Crash
+      - Matt Dillon
+    - - Cinderella Man
+      - Paul Giamatti
+    - - Brokeback Mountain
+      - Jake Gyllenhaal
+    - - A History of Violence
+      - William Hurt
+  Best Supporting Actress:
+    Nominees:
+    - - Junebug
+      - Amy Adams
+    - - Capote
+      - Catherine Keener
+    - - North Country
+      - Frances McDormand
+    - - Brokeback Mountain
+      - Michelle Williams
+'2006':
+  Best Actor:
+    Nominees:
+    - - Blood Diamond
+      - Leonardo DiCaprio
+    - - Half Nelson
+      - Ryan Gosling
+    - - Venus
+      - Peter O'Toole
+    - - The Pursuit of Happyness
+      - Will Smith
+    Winner:
+    - The Last King of Scotland
+    - Forest Whitaker
+  Best Actress:
+    Nominees:
+    - - Volver
+      - Penélope Cruz
+    - - Notes on a Scandal
+      - Judi Dench
+    - - The Devil Wears Prada
+      - Meryl Streep
+    - - Little Children
+      - Kate Winslet
+    Winner:
+    - The Queen
+    - Helen Mirren
+  Best Supporting Actress:
+    Winner:
+    - Dreamgirls
+    - Jennifer Hudson
+'2007':
+  Best Actor:
+    Nominees:
+    - - Michael Clayton
+      - George Clooney
+    - - 'Sweeney Todd: The Demon Barber of Fleet Street'
+      - Johnny Depp
+    - - In the Valley of Elah
+      - Tommy Lee Jones
+    - - Eastern Promises
+      - Viggo Mortensen
+  Best Actress:
+    Nominees:
+    - - 'Elizabeth: The Golden Age'
+      - Cate Blanchett
+    - - Away from Her
+      - Julie Christie
+    - - The Savages
+      - Laura Linney
+    - - Juno
+      - Ellen Page
+    Winner:
+    - La Vie en Rose
+    - Marion Cotillard
+  Best Director:
+    Winner:
+    - No Country for Old Men
+    - Ethan Coen, Joel Coen
+  Best Sound Editing:
+    Nominees:
+    - - No Country for Old Men
+      - Skip Lievsay
+    - - Ratatouille
+      - Randy Thom, Michael Silvers
+    - - There Will Be Blood
+      - Christopher Scarabosio, Matthew Wood
+    - - Transformers
+      - Ethan Van der Ryn, Mike Hopkins
+  Best Sound Mixing:
+    Nominees:
+    - - 3:10 to Yuma
+      - Paul Massey, David Giammarco, Jim Stuebe
+    - - No Country for Old Men
+      - Skip Lievsay, Craig Berkey, Greg Orloff, Peter Kurland
+    - - Ratatouille
+      - Randy Thom, Michael Semanick, Doc Kane
+    - - Transformers
+      - Kevin O'Connell, Greg P. Russell, Peter J. Devlin
+  Best Supporting Actor:
+    Nominees:
+    - - The Assassination of Jesse James by the Coward Robert Ford
+      - Casey Affleck
+    - - Charlie Wilson's War
+      - Philip Seymour Hoffman
+    - - Into the Wild
+      - Hal Holbrook
+    - - Michael Clayton
+      - Tom Wilkinson
+    Winner:
+    - No Country for Old Men
+    - Javier Bardem
+  Best Supporting Actress:
+    Nominees:
+    - - I'm Not There
+      - Cate Blanchett
+    - - American Gangster
+      - Ruby Dee
+    - - Atonement
+      - Saoirse Ronan
+    - - Gone Baby Gone
+      - Amy Ryan
+'2008':
+  Best Actor:
+    Nominees:
+    - - The Visitor
+      - Richard Jenkins
+    - - Frost/Nixon
+      - Frank Langella
+    - - The Curious Case of Benjamin Button
+      - Brad Pitt
+    - - The Wrestler
+      - Mickey Rourke
+    Winner:
+    - Milk
+    - Sean Penn
+  Best Actress:
+    Nominees:
+    - - Rachel Getting Married
+      - Anne Hathaway
+    - - Changeling
+      - Angelina Jolie
+    - - Frozen River
+      - Melissa Leo
+    - - Doubt
+      - Meryl Streep
+  Best Supporting Actor:
+    Nominees:
+    - - Milk
+      - Josh Brolin
+    - - Tropic Thunder
+      - Robert Downey Jr.
+    - - Doubt
+      - Philip Seymour Hoffman
+    - - Revolutionary Road
+      - Michael Shannon
+    Winner:
+    - The Dark Knight
+    - Heath Ledger
+'2009':
+  Best Actor:
+    Nominees:
+    - - Up in the Air
+      - George Clooney
+    - - A Single Man
+      - Colin Firth
+    - - Invictus
+      - Morgan Freeman
+    - - The Hurt Locker
+      - Jeremy Renner
+  Best Actress:
+    Nominees:
+    - - The Last Station
+      - Helen Mirren
+    - - An Education
+      - Carey Mulligan
+    - - 'Precious: Based on the Novel ''Push'' by Sapphire'
+      - Gabourey Sidibe
+    - - Julie & Julia
+      - Meryl Streep
+    Winner:
+    - The Blind Side
+    - Sandra Bullock
+  Best Supporting Actor:
+    Nominees:
+    - - Invictus
+      - Matt Damon
+    - - The Messenger
+      - Woody Harrelson
+    - - The Last Station
+      - Christopher Plummer
+    - - The Lovely Bones
+      - Stanley Tucci
+    Winner:
+    - Inglourious Basterds
+    - Christoph Waltz
+'2010':
+  Best Actor:
+    Nominees:
+    - - Biutiful
+      - Javier Bardem
+    - - True Grit
+      - Jeff Bridges
+    - - The Social Network
+      - Jesse Eisenberg
+    - - 127 Hours
+      - James Franco
+    Winner:
+    - The King's Speech
+    - Colin Firth
+  Best Supporting Actor:
+    Nominees:
+    - - Winter's Bone
+      - John Hawkes
+    - - The Town
+      - Jeremy Renner
+    - - The Kids Are All Right
+      - Mark Ruffalo
+    - - The King's Speech
+      - Geoffrey Rush
+    Winner:
+    - The Fighter
+    - Christian Bale
+  Best Supporting Actress:
+    Nominees:
+    - - The Fighter
+      - Amy Adams
+    - - The King's Speech
+      - Helena Bonham Carter
+    - - True Grit
+      - Hailee Steinfeld
+    - - Animal Kingdom
+      - Jacki Weaver
 '2011':
+  Best Actor:
+    Nominees:
+    - - A Better Life
+      - Demián Bichir
+    - - The Descendants
+      - George Clooney
+    - - Tinker Tailor Soldier Spy
+      - Gary Oldman
+    - - Moneyball
+      - Brad Pitt
+  Best Actress:
+    Nominees:
+    - - Albert Nobbs
+      - Glenn Close
+    - - The Help
+      - Viola Davis
+    - - The Girl with the Dragon Tattoo
+      - Rooney Mara
+    - - My Week with Marilyn
+      - Michelle Williams
+    Winner:
+    - The Iron Lady
+    - Meryl Streep
   Best Live Action Short Film:
     Nominees:
     - - Pentecost
@@ -788,6 +2402,16 @@
     Winner:
     - The Shore
     - Terry George, Oorlagh George
+  Best Supporting Actor:
+    Nominees:
+    - - My Week with Marilyn
+      - Kenneth Branagh
+    - - Moneyball
+      - Jonah Hill
+    - - Warrior
+      - Nick Nolte
+    - - Extremely Loud & Incredibly Close
+      - Max von Sydow
 '2012':
   Best Actor:
     Nominees:
@@ -812,7 +2436,43 @@
       - Quvenzhané Wallis
     - - The Impossible
       - Naomi Watts
+  Best Supporting Actress:
+    Nominees:
+    - - The Master
+      - Amy Adams
+    - - Lincoln
+      - Sally Field
+    - - The Sessions
+      - Helen Hunt
+    - - Silver Linings Playbook
+      - Jacki Weaver
+    Winner:
+    - Les Misérables
+    - Anne Hathaway
 '2013':
+  Best Actor:
+    Nominees:
+    - - American Hustle
+      - Christian Bale
+    - - Nebraska
+      - Bruce Dern
+    - - The Wolf of Wall Street
+      - Leonardo DiCaprio
+    - - 12 Years a Slave
+      - Chiwetel Ejiofor
+    Winner:
+    - Dallas Buyers Club
+    - Matthew McConaughey
+  Best Actress:
+    Nominees:
+    - - American Hustle
+      - Amy Adams
+    - - Gravity
+      - Sandra Bullock
+    - - Philomena
+      - Judi Dench
+    - - 'August: Osage County'
+      - Meryl Streep
   Best Film Editing:
     Nominees:
     - - 12 Years a Slave
@@ -840,7 +2500,135 @@
     Winner:
     - Let It Go
     - Frozen, Kristen Anderson-Lopez, Robert Lopez
+  Best Supporting Actor:
+    Nominees:
+    - - Captain Phillips
+      - Barkhad Abdi
+    - - American Hustle
+      - Bradley Cooper
+    - - 12 Years a Slave
+      - Michael Fassbender
+    - - The Wolf of Wall Street
+      - Jonah Hill
+  Best Supporting Actress:
+    Winner:
+    - 12 Years a Slave
+    - Lupita Nyong'o
+'2014':
+  Best Actor:
+    Nominees:
+    - - Foxcatcher
+      - Steve Carell
+    - - American Sniper
+      - Bradley Cooper
+    - - The Imitation Game
+      - Benedict Cumberbatch
+    - - Birdman or (The Unexpected Virtue of Ignorance)
+      - Michael Keaton
+    Winner:
+    - The Theory of Everything
+    - Eddie Redmayne
+  Best Actress:
+    Nominees:
+    - - Two Days, One Night
+      - Marion Cotillard
+    - - The Theory of Everything
+      - Felicity Jones
+    - - Gone Girl
+      - Rosamund Pike
+    - - Wild, Cheryl Strayed
+      - Reese Witherspoon
+  Best Supporting Actor:
+    Nominees:
+    - - The Judge
+      - Robert Duvall
+    - - Boyhood
+      - Ethan Hawke
+    - - Birdman or (The Unexpected Virtue of Ignorance)
+      - Edward Norton
+    - - Foxcatcher
+      - Mark Ruffalo
+  Best Supporting Actress:
+    Nominees:
+    - - Wild, Bobbi Grey
+      - Laura Dern
+    - - The Imitation Game
+      - Keira Knightley
+    - - Birdman or (The Unexpected Virtue of Ignorance)
+      - Emma Stone
+    - - Into the Woods
+      - Meryl Streep
+'2015':
+  Best Actor:
+    Nominees:
+    - - Trumbo
+      - Bryan Cranston
+    - - The Martian
+      - Matt Damon
+    - - Steve Jobs
+      - Michael Fassbender
+    - - The Danish Girl
+      - Eddie Redmayne
+    Winner:
+    - The Revenant
+    - Leonardo DiCaprio
+  Best Actress:
+    Nominees:
+    - - Carol
+      - Cate Blanchett
+    - - Joy
+      - Jennifer Lawrence
+    - - 45 Years
+      - Charlotte Rampling
+    - - Brooklyn
+      - Saoirse Ronan
+  Best Supporting Actor:
+    Nominees:
+    - - The Big Short
+      - Christian Bale
+    - - The Revenant
+      - Tom Hardy
+    - - Spotlight
+      - Mark Ruffalo
+    - - Creed
+      - Sylvester Stallone
+    Winner:
+    - Bridge of Spies
+    - Mark Rylance
+  Best Supporting Actress:
+    Nominees:
+    - - The Hateful Eight
+      - Jennifer Jason Leigh
+    - - Carol
+      - Rooney Mara
+    - - Spotlight
+      - Rachel McAdams
+    - - Steve Jobs
+      - Kate Winslet
+    Winner:
+    - The Danish Girl
+    - Alicia Vikander
 '2016':
+  Best Actor:
+    Nominees:
+    - - Hacksaw Ridge
+      - Andrew Garfield
+    - - La La Land
+      - Ryan Gosling
+    - - Captain Fantastic
+      - Viggo Mortensen
+    - - Fences
+      - Denzel Washington
+  Best Actress:
+    Nominees:
+    - - Elle
+      - Isabelle Huppert
+    - - Loving
+      - Ruth Negga
+    - - Jackie
+      - Natalie Portman
+    - - Florence Foster Jenkins
+      - Meryl Streep
   Best Sound Mixing:
     Nominees:
     - - '13 Hours: The Secret Soldiers of Benghazi'
@@ -854,3 +2642,42 @@
     Winner:
     - Hacksaw Ridge
     - Kevin O'Connell, Andy Wright, Robert Mackenzie, Peter Grace
+  Best Supporting Actress:
+    Nominees:
+    - - Moonlight
+      - Naomie Harris
+    - - Lion, Sue Brierley
+      - Nicole Kidman
+    - - Hidden Figures
+      - Octavia Spencer
+    - - Manchester by the Sea
+      - Michelle Williams
+'2017':
+  Best Actor:
+    Winner:
+    - Darkest Hour
+    - Gary Oldman
+  Best Actress:
+    Nominees:
+    - - The Shape of Water
+      - Sally Hawkins
+    - - I, Tonya
+      - Margot Robbie
+    - - Lady Bird
+      - Saoirse Ronan
+    - - The Post
+      - Meryl Streep
+  Best Supporting Actor:
+    Nominees:
+    - - The Florida Project
+      - Willem Dafoe
+    - - Three Billboards Outside Ebbing, Missouri
+      - Woody Harrelson
+    - - The Shape of Water
+      - Richard Jenkins
+    - - All the Money in the World
+      - Christopher Plummer
+  Best Supporting Actress:
+    Winner:
+    - I, Tonya
+    - Allison Janney
