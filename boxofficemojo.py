@@ -4,9 +4,10 @@ from timeUtils import clock, elapsed
 from ioUtils import saveFile, getFile
 from fsUtils import setDir, isDir, mkDir, setFile, isFile, setSubFile
 from fileUtils import getBaseFilename
-from searchUtils import findSubPatternExt, findExt
+from searchUtils import findSubPatternExt, findPatternExt, findExt
 from strUtils import convertCurrency
 from webUtils import getWebData, getHTML
+from movieDB import movieDB
 from os import getcwd
 import operator
 
@@ -14,40 +15,17 @@ import operator
 ##############################################################################################################################
 # Box Office Mojo
 ##############################################################################################################################
-class boxofficemojo():
+class boxofficemojo(movieDB):
     def __init__(self, basedir=None):
-        if basedir is None:
-            from os import getcwd
-            self.basedir = getcwd()
-        else:
-            self.basedir = basedir
-            
-    def getMovieDir(self):
-        dirname = self.basedir
-        if not isDir(dirname): mkDir(dirname)
-        return dirname
-    
-    def getBoxOfficeDir(self):
-        dirname = setDir(self.getMovieDir(), "boxoffice.com")
-        if not isDir(dirname): mkDir(dirname)
-        return dirname
-
-    def getDataDir(self):
-        dirname = setDir(self.getBoxOfficeDir(), "data")
-        if not isDir(dirname): mkDir(dirname)
-        return dirname
-
-    def getResultsDir(self):
-        dirname = setDir(self.getBoxOfficeDir(), "results")
-        if not isDir(dirname): mkDir(dirname)
-        return dirname
+        self.name = "boxofficemojo"
+        movieDB.__init__(self, dbdir=self.name)
     
     
     
     ###########################################################################################################################
     # Get Box Office Weekend Files
     ###########################################################################################################################
-    def getBoxOfficeMojoWeekendResult(self, year, week, outdir):
+    def downloadBoxOfficeMojoWeekendData(self, year, week, outdir, debug=False):
         yname = str(year)
         if week < 10:
             wname = "0"+str(week)
@@ -57,17 +35,22 @@ class boxofficemojo():
         url="http://www.boxofficemojo.com/weekend/chart/?yr="+yname+"&wknd="+wname+"&p=.htm"
         savename = setFile(outdir, yname+"-"+wname+".p")
         if isFile(savename): return
+        if debug:
+            print("Downloading/Saving {0}".format(savename))
         getWebData(base=url, savename=savename, useSafari=False)
         sleep(2)
 
-    def getBoxOfficeMojoWeekendResults(self, startYear = 1982, endYear = 1982):
-        outdir = setDir(getBoxOfficeDir(), "data")
+    def getBoxOfficeMojoWeekendData(self, startYear = 1982, endYear = 1982, debug=False):
+        outdir = self.getDataDir()
+        if debug:
+            print("Data Directory: {0}".format(outdir))
+        #outdir = setDir(getBoxOfficeDir(), "data")
         if not isDir(outdir): mkDir(outdir)
         years  = range(int(startYear), int(endYear)+1)
         weeks  = range(1,53)
         for year in years:
             for week in weeks:
-                self.getBoxOfficeMojoWeekendResult(year, week, outdir)
+                self.downloadBoxOfficeMojoWeekendData(year, week, outdir, debug)
                 
                 
     
@@ -75,7 +58,7 @@ class boxofficemojo():
     ###########################################################################################################################
     # Parse Box Office Weekend Files
     ###########################################################################################################################
-    def parseBoxOfficeMojo(self, ifile):
+    def parseBoxOfficeMojo(self, ifile, debug=False):
         htmldata = getFile(ifile)
         bsdata   = getHTML(htmldata)
         tbl = None
@@ -123,27 +106,30 @@ class boxofficemojo():
                     print("Mismatch with keys/data")
                     print(len(keys),'\t',keys)
                     print(len(vals),'\t',vals)
+                    raise("YO")
                     break
                 else:
                     data.append(vals)
 
-
-        print("Found",len(data),"movies from",ifile            )
+        if debug:
+            print("Found",len(data),"movies from",ifile)
         return data
 
 
-    def parseBoxOfficeMojoResults(self, startYear = 1982, endYear = 2017):
-        outdir   = self.getBoxOfficeDir()
+    def parseBoxOfficeMojoResults(self, startYear = 1982, endYear = 2017, debug=False):
+        outdir = self.getDataDir()
+        resultsdir = self.getResultsDir()
+        
         if endYear == None: endYear = startYear
         years    = range(int(startYear), int(endYear)+1)
         for year in years:
             retval = []
-            files  = findSubPatternExt(outdir, "data", pattern=str(year), ext=".p")
+            files  = findPatternExt(outdir, pattern=str(year), ext=".p")
             for ifile in files:
-                result = self.parseBoxOfficeMojo(ifile)
+                result = self.parseBoxOfficeMojo(ifile, debug=debug)
                 retval.append(result)
 
-            savename = setFile(getResultsDir(), str(year)+".json")
+            savename = setFile(resultsdir, str(year)+".json")
             print("Saving",len(retval),"weekends of movie data to",savename)
             saveFile(savename, retval)
                 
@@ -153,17 +139,25 @@ class boxofficemojo():
     ###########################################################################################################################
     # Merge Box Office Weekend Files
     ###########################################################################################################################
-    def mergeBoxOfficeMojoResults(self):
+    def mergeBoxOfficeMojoResults(self, debug=False):
         retval = {}
         files  = findExt(self.getResultsDir(), ext=".json")
-        print("Found {0} files in the results directory".format(len(files)))
-        for ifile in files:
+        if debug:
+            print("Found {0} files in the results directory".format(len(files)))
+        for ifile in sorted(files):
             year = getBaseFilename(ifile)
+            try:
+                int(year)
+            except:
+                continue
             data = getFile(ifile)
             retval[year] = data
+            if debug:
+                print("  Adding {0} entries from {1}".format(len(data), ifile))
 
-        savename = setFile(self.getBoxOfficeDir(), "results.json")
-        print("Saving",len(retval),"years of movie data to",savename)
+        savename = setFile(self.getResultsDir(), "results.json")
+        if debug:
+            print("Saving",len(retval),"years of movie data to",savename)
         saveFile(savename, retval)
                 
                 
@@ -172,16 +166,17 @@ class boxofficemojo():
     ###########################################################################################################################
     # Merge Box Office Weekend Files
     ###########################################################################################################################
-    def processBoxOfficeMojo(self):
-        outdir   = self.getBoxOfficeDir()
+    def processBoxOfficeMojo(self, debug=False):
+        outdir   = self.getResultsDir()
         savename = setFile(outdir, "results.json")
 
         data = getFile(savename)
         movies = {}
         yearlyData = {}
-        for i,year in enumerate(data.keys()):
+        for i,year in enumerate(sorted(data.keys())):
             movies[year] = {}
             ydata = data[year]
+            
             for wdata in ydata:
                 for mdata in wdata:
                     movie  = mdata[2]
@@ -199,11 +194,11 @@ class boxofficemojo():
                         movies[year][movie] = max(money, movies[year][movie])
 
             yearlyData[year] = sorted(movies[year].items(), key=operator.itemgetter(1), reverse=True)
-            print("---->",year,"<----")
+            print("---->",year," (Top 25/{0} Movies) <----".format(len(yearlyData[year])))
             for item in yearlyData[year][:25]:
                 print(item)
             print('\n')
 
-        savename = setFile(outdir, "boxofficemojo.json")
+        savename = setFile(outdir, "{0}.json".format(self.name))
         print("Saving",len(yearlyData),"yearly results to",savename)
         saveFile(savename, yearlyData)

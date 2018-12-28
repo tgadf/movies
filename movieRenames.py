@@ -1,5 +1,3 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
 """
 Created on Tue Sep 12 22:18:51 2017
 
@@ -8,8 +6,8 @@ Created on Tue Sep 12 22:18:51 2017
 
 def manualRenames(movie, year, keepIMAX = True):
 
-    if isinstance(movie, str):
-        movie = unicode(movie, 'utf-8')
+    #if isinstance(movie, str):
+    #    movie = unicode(movie, 'utf-8')
 
     movie = movie.replace(" as a ", " As A ")
     movie = movie.replace(" of the ", " Of The ")    
@@ -335,7 +333,7 @@ def manualRenames(movie, year, keepIMAX = True):
     if movie == "50/50":
         return u"50-50"
     if movie == "Amelie":
-        return u"Amélie"
+        return u"Amélie"
     if movie == "A Very Harold & Kumar 3D Christmas":
         return u"A Very Harold & Kumar Christmas"
     if movie == "Love with the Proper Stranger":
@@ -538,7 +536,7 @@ def manualRenames(movie, year, keepIMAX = True):
     if movie == "American Reunion":
         return u"American Pie American Reunion"
     if movie == "Les Miserables":
-        return u"Les Misérables"
+        return u"Les Misérables"
         
     if movie == "Resident Evil":
         return u"Resident Evil 1"
@@ -2012,9 +2010,5 @@ def manualRenames(movie, year, keepIMAX = True):
     if movie == "Titanic 3D":
         return None
         
-    
-    if movie.find("Attack Of The Clones") != -1:
-        print movie
-        raise()
     
     return movie
