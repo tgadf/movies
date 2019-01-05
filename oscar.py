@@ -146,7 +146,7 @@ class oscars(movieDB):
         saveFile(idata=savedData, ifile=savename)
         
         
-        savename = setFile(self.getResultsDir(), "oscars.yaml")
+        savename = setFile(self.getResultsDir(), "{0}.yaml".format(self.name))
         saveFile(idata=oscarData, ifile=savename)
 
 
@@ -179,7 +179,7 @@ class oscars(movieDB):
 
 
     def processOscarData(self, debug=False):
-        savename  = setFile(self.getResultsDir(), "oscars.yaml")
+        savename  = setFile(self.getResultsDir(), "{0}.yaml".format(self.name))
         oscarData = getFile(savename)
 
         yearlyData = {}
@@ -235,6 +235,6 @@ class oscars(movieDB):
                 print(item)
             print('\n')
 
-        savename = setFile(self.getResultsDir(), "oscars.json")
+        savename = setFile(self.getResultsDir(), "{0}.json".format(self.name))
         print("Saving",len(yearlyData),"yearly results to",savename)
         saveFile(savename, yearlyData)

@@ -4,7 +4,7 @@ from timeUtils import clock, elapsed
 from ioUtils import saveFile, getFile
 from fsUtils import setDir, isDir, mkDir, setFile, isFile, setSubFile
 from fileUtils import getBaseFilename
-from searchUtils import findSubPatternExt, findPatternExt, findExt
+from searchUtils import findSubPatternExt, findPatternExt, findExt, findNearest
 from strUtils import convertCurrency
 from webUtils import getWebData, getHTML
 from movieDB import movieDB
@@ -202,3 +202,19 @@ class boxofficemojo(movieDB):
         savename = setFile(outdir, "{0}.json".format(self.name))
         print("Saving",len(yearlyData),"yearly results to",savename)
         saveFile(savename, yearlyData)
+                
+                
+    
+    
+    ###########################################################################################################################
+    # Search Box Office
+    ###########################################################################################################################
+    def searchBoxOfficeMojo(self, movie, debug=False):
+        savename = setFile(self.getResultsDir(), "{0}.json".format(self.name))
+        data = getFile(savename)
+        print("Nearest matches for {0}".format(movie))
+        for year,yearlyMovies in data.items():
+            result = findNearest(movie, [x[0] for x in yearlyMovies], num=1, cutoff=0.9)
+            if len(result) > 0:
+                values = [(name, value) for name,value in yearlyMovies if name in result]
+                print("{0: <6}{1}".format(year,values))

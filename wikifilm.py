@@ -52,88 +52,7 @@ class wikifilm(movieDB):
     
     ###########################################################################################################################
     # Parse Box Office Weekend Files
-    ###########################################################################################################################  
-    def parseWikiFilmOscarDataSpecial(self, ifile, debug = True):
-        print("HI: {0}".format(ifile))
-        htmldata = getFile(ifile)
-        bsdata   = getHTML(htmldata)
-            
-        data   = {}
-        done   = False
-        tables = bsdata.findAll("table", {"class": "wikitable"})
-        if debug:
-            print("  Found {0} tables".format(len(tables)))
-        for table in tables:
-            if done:
-                if debug:
-                    print("  Breaking...")
-                break
-                
-                
-            ## Get <th> data
-            ths = table.findAll("th")
-            thData = [x.find('a') for x in ths]
-            titles = [x.string for x in thData if x is not None]
-            if len(titles) == 0:
-                continue
-            
-            
-            ## Get <tr> data
-            trData = []
-            trs = table.findAll("tr")
-            for tr in trs:
-                tds = tr.findAll("td")
-                for td in tds:
-                    ul = td.find("ul")
-                    if ul is not None:
-                        trData.append(ul)
-                        
-            print(len(titles))
-            print(len(trData))
-            if len(titles) != len(trData):
-                print("Can not process this data!")
-                print("Titles: {0}: {1}".format(len(titles), titles))
-                print("Data:   {0}".format(len(trData)))
-
-                return None
-            
-            ## Merge titles and data
-            for title,titleData in zip(titles,trData):
-                results = []
-
-                lis = titleData.findAll("li")
-                if debug:
-                    print("    Found {0} entries".format(len(lis)))
-
-                for k,li in enumerate(lis):
-                    text = []
-                    if k == 0: 
-                        for lival in li.findAll("b"):
-                            for ref in lival.findAll("a"): 
-                                text.append(ref.string)
-                    else:
-                        for ref in li.findAll("a"):
-                            text.append(ref.string)
-                    if len(text) == 0: continue
-                    if len(text) > 2: text = [text[0], ", ".join(text[1:])]
-                    text = self.reorderwikifilmOscarData(text, title)
-                    results.append(text)
-
-                for k,result in enumerate(results):
-                    if isinstance(result, list):
-                        if len(result) == 1: results[k] = result[0]
-
-                data[title] = {}
-                data[title]["Winner"]   = results[0]
-                data[title]["Nominees"] = results[1:]
-                if debug:
-                    print("      Winner  :",data[title]["Winner"])
-                    print("      Nominees:",data[title]["Nominees"])
-                    print("")
-                
-        return data
-
-
+    ###########################################################################################################################
     def parseWikiFilmYearlyData(self, ifile, debug = False):
         htmldata = getFile(ifile)
         bsdata   = getHTML(htmldata)
@@ -175,11 +94,11 @@ class wikifilm(movieDB):
                         raise ValueError("Cannot create integer rank from {0}".format(rank))
                     rank = int(rank)
                     tds = [x.text for x in tds]
-                    tds = [x.replace("\n", "") for x in tds]
+                    tds = [x.replace("\n", "").strip() for x in tds]
                     tds.insert(0, rank)
                 else:
                     tds = [x.text for x in tds]
-                    tds = [x.replace("\n", "") for x in tds]
+                    tds = [x.replace("\n", "").strip() for x in tds]
                     tds[0] = tds[0].replace(".", "")
                     if len(tds[0]) == 0:
                         tds[0] = pRank
