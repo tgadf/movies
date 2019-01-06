@@ -125,17 +125,20 @@ class combine(movieDB):
         
     def saveCorrections(self, debug=True):
         corrsavename = setFile(self.getDataDir(), "corr.yaml")
-        corrData = getFile(corrsavename)
+        corrData = getFile(corrsavename)        
 
         try:
             savename = setFile(self.getDataDir(), "saved.yaml")
             savedData = getFile(savename)
         except:
+            raise ValueError("Could not access saved data!")
             savedData = {}
 
         if corrData is None:
             print("There is no corrections data.")
         else:
+            print("Found {0} old corrections".format(len(savedData)))
+            print("Found {0} new corrections".format(len(corrData)))
             for movie,corrs in corrData.items():
                 if savedData.get(movie) is None:
                     if debug:
@@ -147,11 +150,12 @@ class combine(movieDB):
                         print("Adding new corrections to {0}".format(movie))
                     savedData[movie] = newSaved
 
-        try:
-            savename = setFile(self.getDataDir(), "saved.yaml")
-            saveFile(idata=savedData, ifile=savename, debug=debug)        
-        except:
-            raise ValueError("There was an error saving the saved corrctions yaml file!")
+            try:
+                savename = setFile(self.getDataDir(), "saved.yaml")
+                saveFile(idata=savedData, ifile=savename, debug=debug)        
+                print("There are {0} total corrections".format(len(savedData)))
+            except:
+                raise ValueError("There was an error saving the saved corrctions yaml file!")
         #else:
         #    print("Could not process corrected yaml file: {0}".format(corrsavename))
         
