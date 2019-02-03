@@ -32,7 +32,7 @@ class combine(movieDB):
         self.movieSourceVal    = {}
         
         
-        self.ordering = ["Oscar", "Rotten Tomatoes", "Razzies", "Ultimate Movie Rankings", "Box Office Mojo", "Wiki Film"]
+        self.ordering = ["Oscar", "Rotten Tomatoes", "SAG", "BAFTA", "Rolling Stone", "Razzies", "Canada", "Ultimate Movie Rankings", "Box Office Mojo", "Wiki Film", "Flops"]
     
         self.years = []
         
@@ -66,6 +66,26 @@ class combine(movieDB):
        
     def setRazziesData(self, source, val=None):
         key = "Razzies"
+        self.setMovieData(key, source, val)
+        
+    def setBAFTAData(self, source, val=None):
+        key = "BAFTA"
+        self.setMovieData(key, source, val)
+        
+    def setSAGData(self, source, val=None):
+        key = "SAG"
+        self.setMovieData(key, source, val)
+        
+    def setFlopsData(self, source, val=None):
+        key = "Flops"
+        self.setMovieData(key, source, val)
+        
+    def setCanadaData(self, source, val=None):
+        key = "Canada"
+        self.setMovieData(key, source, val)
+        
+    def setRollingStoneData(self, source, val=None):
+        key = "Rolling Stone"
         self.setMovieData(key, source, val)
        
     def setWikiFilmData(self, source, val=None):
