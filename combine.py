@@ -32,7 +32,7 @@ class combine(movieDB):
         self.movieSourceVal    = {}
         
         
-        self.ordering = ["Oscar", "Rotten Tomatoes", "SAG", "BAFTA", "AACTA", "Rolling Stone", "Razzies", "Canada", "Ultimate Movie Rankings", "Box Office Mojo", "Wiki Film", "Flops"]
+        self.ordering = ["Oscar", "Rotten Tomatoes", "SAG", "BAFTA", "Filmsite", "Films101", "AACTA", "Rolling Stone", "Razzies", "Canada", "Ultimate Movie Rankings", "Box Office Mojo", "Wiki Film", "Flops"]
     
         self.years = []
         
@@ -53,6 +53,8 @@ class combine(movieDB):
     
     def setMovieData(self, key, source, val):
         self.sources.add(key)
+        if key not in self.ordering:
+            raise ValueError("{0} is not in the ordering list!".format(key))
         self.movieSource[key]       = source
         self.movieSourceData[key]   = None
         self.movieSourceMovies[key] = None
@@ -74,6 +76,14 @@ class combine(movieDB):
         
     def setSAGData(self, source, val=None):
         key = "SAG"
+        self.setMovieData(key, source, val)
+        
+    def setFilmsiteData(self, source, val=None):
+        key = "Filmsite"
+        self.setMovieData(key, source, val)
+        
+    def setFilms101Data(self, source, val=None):
+        key = "Films101"
         self.setMovieData(key, source, val)
         
     def setAACTAData(self, source, val=None):
@@ -216,6 +226,12 @@ class combine(movieDB):
 
                 ###### Merge The Movies
                 for movie,name in keyMovies[key].items():
+                    if movie is None:
+                        continue
+                    if movie.find("re-issue") != -1:
+                        continue
+
+                    
                     if repData.get(movie):
                         movie = repData[movie]
                     moviename = "{0} [{1}]".format(movie, year)
