@@ -40,6 +40,8 @@ class combine(movieDB):
         
         self.movies = None
         
+    def getOrdering(self):
+        return self.ordering
         
     def getCombinedMovies(self, debug=False):        
         savename = setFile(self.getResultsDir(), "movies.json")
