@@ -2,16 +2,16 @@ from distutils.core import setup
 import setuptools
 
 setup(
-  name = 'census',
-  py_modules = ['csa', 'cbsa', 'place', 'metdiv', 'county', 'state'],
+  name = 'movies',
+  py_modules = [],
   version = '0.0.1',
-  description = 'A Python Wrapper For Census Lookup Tables',
+  description = 'My Movie Parser',
   long_description = open('README.md').read(),
   author = 'Thomas Gadfort',
   author_email = 'tgadfort@gmail.com',
   license = "MIT",
-  url = 'https://github.com/tgadf/census',
-  keywords = ['location', 'census'],
+  url = 'https://github.com/tgadf/movies',
+  keywords = ['movies'],
   classifiers = [
     'Development Status :: 3',
     'Intended Audience :: Developers',
